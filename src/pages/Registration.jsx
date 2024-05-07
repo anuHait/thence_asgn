@@ -32,10 +32,10 @@ function Registration() {
 
       <div className="flex flex-col items-center justify-center m-10 w-auto gap-10">
       <div className="flex flex-col items-center justify-center gap-4">
-      <h1 className="text-green-600 text-[30px] covered-by-your-grace-regular">Registration Form</h1>
+      <h1 className="text-green-600 text-[30px] font-custom">Registration Form</h1>
       <div>
-      <p className="text-center text-zinc-900 text-xl md:text-[30px] lg:text-[48px] font-semibold leading-[60.20px]">Start your success</p>
-      <p className="text-center text-zinc-900 text-xl md:text-[30px] lg:text-[48px] font-semibold leading-[60.20px]">Journey now!</p>
+      <p className="text-center font-custom2 text-zinc-900 text-xl md:text-[30px] lg:text-[48px] font-semibold leading-[60.20px]">Start your success</p>
+      <p className="text-center font-custom2 text-zinc-900 text-xl md:text-[30px] lg:text-[48px] font-semibold leading-[60.20px]">Journey now!</p>
       </div>
       </div>
       <GetProjectForm />

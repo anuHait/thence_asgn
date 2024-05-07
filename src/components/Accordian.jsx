@@ -8,11 +8,11 @@ function Accordion() {
   };
 
   return (
-    <div className="w-[50%] m-10">
-      <div className="border rounded-md overflow-hidden">
-        <div className="accordion-item border-b border-gray-400 ">
+    <div className="w-full md:w-[80%] lg:w-[55%] mr-8 font-custom2">
+      <div className="w-full overflow-hidden">
+        <div className="accordion-item border-b border-gray-300 text-gray-500 ">
           <div
-            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold  "
+            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold text-zinc-900 "
             onClick={() => handleToggle(1)}
           >
             Do you offer freelancers?
@@ -25,9 +25,9 @@ function Accordion() {
           )}
         </div>
 
-        <div className="accordion-item border-b border-gray-400 ">
+        <div className="accordion-item border-b border-gray-300 text-gray-500 ">
           <div
-            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold "
+            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold text-zinc-900"
             onClick={() => handleToggle(2)}
           >
             What’s the guarantee that I will be satisfied with the hired talent?
@@ -40,9 +40,9 @@ function Accordion() {
           )}
         </div>
 
-        <div className="accordion-item border-b border-gray-400 ">
+        <div className="accordion-item border-b border-gray-300 text-gray-500 ">
           <div
-            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold "
+            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold text-zinc-900"
             onClick={() => handleToggle(3)}
           >
             Can I hire multiple talents at once?
@@ -54,9 +54,9 @@ function Accordion() {
           )}
         </div>
 
-        <div className="accordion-item border-b border-gray-400">
+        <div className="accordion-item border-b border-gray-300 text-gray-500">
           <div
-            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold "
+            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold text-zinc-900"
             onClick={() => handleToggle(4)}
           >
             Why should I not go to an agency directly?
@@ -69,9 +69,9 @@ function Accordion() {
           )}
         </div>
 
-        <div className="accordion-item ">
+        <div className="accordion-item text-gray-500">
           <div
-            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold"
+            className="accordion-header bg-[#e8eee7] p-3.5 cursor-pointer flex justify-between items-center flex-row font-semibold text-zinc-900"
             onClick={() => handleToggle(5)}
           >
             Who can help me pick a right skillset and duration for me?

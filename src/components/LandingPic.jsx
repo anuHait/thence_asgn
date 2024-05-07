@@ -5,7 +5,7 @@ import { FaDollarSign } from "react-icons/fa";
 
 function LandingPic() {
   return (
-    <div className="relative m-24 w-fit">
+    <div className="relative m-24 w-fit font-custom2">
       <div className="relative flex -gap-2">
         {/* Image */}
         <img

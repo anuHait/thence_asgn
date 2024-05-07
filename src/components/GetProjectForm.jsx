@@ -36,7 +36,7 @@ function GetProjectForm() {
   };
 
   return (
-    <div className='flex flex-col gap-6 w-[96%] mt-6'>
+    <div className='flex flex-col gap-6 w-[96%] mt-6 font-custom2'>
       <div className='flex flex-col gap-4'>
         <input
           className='bg-zinc-100 p-3 rounded-[64px] border border-black/opacity-0 h-12 cursor-text outline-none focus:outline-blue-500 focus:bg-slate-50'

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="bg-white/opacity-80 shadow p-3 rounded-[65.28px] border border-gray-200 backdrop-blur-[31.33px] flex justify-between items-center m-5">
+    <div className="bg-white/opacity-80 shadow p-3 rounded-[65.28px] border border-gray-200 backdrop-blur-[31.33px] flex justify-between items-center m-5 font-custom2">
       <h1 className=" ">
         <svg
           width="110"

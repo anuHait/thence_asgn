@@ -8,7 +8,7 @@ function Success() {
     }, 5000);
   }, []);
   return (
-    <div className="m-2 flex flex-col items-center justify-center gap-10">
+    <div className="m-2 flex flex-col items-center justify-center font-custom2 gap-10">
       <div className="m-3 flex flex-row items-center justify-between w-[98%]">
         <h1 className=" ">
           <svg
@@ -31,7 +31,7 @@ function Success() {
       <div className="flex flex-col items-center justify-center mt-24 w-auto gap-12">
         <div className="flex flex-col items-center justify-center  gap-1">
           <TickCircle size="40" color="#28B246" variant="Bold" />
-          <h2 className="text-green-600 font-semibold text-2xl lg:text-3xl">
+          <h2 className="text-green-600 font-normal text-2xl lg:text-3xl font-custom">
             Success Submitted
           </h2>
           <p className="text-center text-zinc-900 text-[36px] lg:text-[48px] font-bold leading-[60.20px]">
