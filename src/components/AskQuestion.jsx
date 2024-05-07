@@ -6,6 +6,7 @@ function AskQuestion() {
     <div className='flex flex-col gap-2 ml-1 lg:ml-10'>
     <h1 className="text-neutral-400 font-normal font-custom text-xl md:text-2xl leading-9">What’s on your mind</h1>
     <p className='leading-[66px] text-zinc-900 text-2xl md:text-5xl font-semibold'>Ask Questions</p>
+
     </div>
       <Accordian />
     </div>
