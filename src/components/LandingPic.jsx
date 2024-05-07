@@ -46,7 +46,7 @@ function LandingPic() {
             </h1>
           </div>
         </div>
-        <div className="absolute -bottom-10 left-[240px] bg-green-950 p-4 flex flex-col gap-2 items-start justify-start w-fit rounded-[20px] shadow border border-neutral-700">
+        <div className="absolute -bottom-10 left-[240px] bg-green-950 p-4 flex flex-col gap-2 items-start justify-start w-fit rounded-[20px] shadow-md">
           <div className="font-bold text-3xl text-white flex flex-row gap-1.5 items-center">
             <FaDollarSign className="-mr-2.5" />0.5
             <div className="font-semibold text-gray-400 self-end text-sm">

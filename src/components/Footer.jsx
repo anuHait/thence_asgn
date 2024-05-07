@@ -3,7 +3,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 
 function Footer() {
   return (
-    <div className='m-5 shadow-md flex flex-row items-center bg-neutral-100 rounded-[38.8px] h-36 justify-between p-4'>
+    <div className='m-5 shadow-md flex flex-row items-center bg-neutral-100 rounded-[38.8px] h-32 justify-between p-4'>
        <span className='flex flex-row gap-1 items-center'>
        <MdOutlineCopyright className='text-xl text-zinc-600'/>
        <div className="text-zinc-600 text-sm font-medium leading-tight">Talup 2023. All rights reserved</div>
