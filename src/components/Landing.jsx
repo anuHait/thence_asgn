@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPic from "../components/LandingPic";
+import LandingPic from "../components/LandingComp";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Landing() {
